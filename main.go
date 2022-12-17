@@ -23,7 +23,7 @@ var NumPeople = 1
 func main() {
 	a := app.New()
 	w := a.NewWindow("Tips Calculator")
-	icon, _ := fyne.LoadResourceFromPath("icon.png")
+	icon, _ := fyne.LoadResourceFromPath("images/icon.png")
 	w.SetIcon(icon)
 	// right side
 	labelTotal := canvas.NewText("Total", ColorLightCyan)
